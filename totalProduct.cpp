@@ -24,14 +24,14 @@ int main() {
             do {
                 totalProduct = loopCounter * totalProduct;
                 loopCounter = loopCounter + 1;
-            } while (loopCounter <= positiveInteger); {
+            } while (loopCounter <= positiveInteger); 
             std::cout << "The product is " << totalProduct << std::endl;
-            }
+            
         } else if (positiveInteger < 0) {
-        std::cout << "Undefined.\n";
+            std::cout << "Undefined.\n";
         }
     } catch (std::invalid_argument) {
-            std::cout << "That is not an integer" << std::endl;
+        std::cout << "That is not an integer" << std::endl;
     }
     std::cout << "\nDone." << std::endl;
 }
